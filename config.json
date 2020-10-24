@@ -1,0 +1,1 @@
+{"que_vocab_size": 32, "prog_vocab_size": 21, "embedding_dim": 256, "num_heads": 8, "num_encoder_layers": 3, "num_decoder_layers": 3, "dropout": 0.1, "max_len": 20, "forward_expansion": 4, "que_pad_idx": 1}
