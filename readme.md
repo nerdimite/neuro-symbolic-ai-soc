@@ -6,7 +6,9 @@ Neuro-Symbolic AI allows us to combine Deep Learning’s superior pattern recogn
 The basic idea behind using NSAI for VQA is parsing the visual scene into a symbolic representation and using NLP to parse the query into an executable program which the program executor can use on the scene to find the answer. This implementation gets more than 99% on the Sort-of-CLEVR dataset.
 
 ## Requirements
-- PyTorch version 1.2 and above
+- Pytorch <= 1.7
+- Torchtext <= 0.8.0
+- Torchvision <= 0.8.0
 - OpenCV
 - dlib
 - Scikit Learn
