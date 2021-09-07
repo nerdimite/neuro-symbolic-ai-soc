@@ -21,7 +21,7 @@ The basic idea behind using NSAI for VQA is parsing the visual scene into a symb
 - To understand more about the design and workflow, check out [NSAI Flow Diagram.pdf](https://github.com/nerdimite/neuro-symbolic-ai-soc/blob/master/NSAI%20Flow%20Diagram.pdf) which contains the workflows of every component i.e. Perception Module, Semantic Parser and Program Executor.
 
 ## References
-- Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding https://arxiv.org/abs/1810.02338
-- The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision https://arxiv.org/abs/1904.12584
-- https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/seq2seq_transformer/seq2seq_transformer.py
-- https://www.learnopencv.com/training-a-custom-object-detector-with-dlib-making-gesture-controlled-applications/
+- [Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding](https://arxiv.org/abs/1810.02338)
+- [The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision](https://arxiv.org/abs/1904.12584)
+- [Seq2Seq Transformer](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/seq2seq_transformer/seq2seq_transformer.py)
+- [Object detection using dlib](https://www.learnopencv.com/training-a-custom-object-detector-with-dlib-making-gesture-controlled-applications/)
