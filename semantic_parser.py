@@ -11,7 +11,7 @@ from tqdm.notebook import tqdm
 class Preprocessor():
     '''Preprocessor for preparing Queries and Programs for Seq2Seq'''
     def __init__(self, train_csv):
-        self.spacy_en = spacy.load("en")
+        self.spacy_en = spacy.load("en_core_web_sm")
         
         # Create fields
         self.que_f = Field(tokenize=self.tokenizer, use_vocab=True, init_token="<sos>", eos_token="<eos>", lower=True)
